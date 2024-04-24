@@ -13,7 +13,7 @@ public class DBTest {
 
         try {
 
-            Connection conn = DriverManager.getConnection(connectionUrl,"db_ann_test", "NIad27D6SYlc29484840");
+            Connection conn = DriverManager.getConnection(connectionUrl,"db_ann_test", "NIad27D6SYlc29484zzzz");
             PreparedStatement ps = conn.prepareStatement(sqlSelect);
 
             ResultSet rs = ps.executeQuery();
